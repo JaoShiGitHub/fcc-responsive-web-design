@@ -15,10 +15,11 @@ p {
 }
 
 form {
-  margin: 0 auto;
+  width: 60vw;
   max-width: 500px;
   min-width: 300px;
-  width: 60vw;
+  margin: 0 auto;
+  padding: 2em;
 }
 
 fieldset {
@@ -53,7 +54,7 @@ textarea {
 
 .inline {
   width: unset;
-  margin: 0 0 0 0.5em;
+  margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
 
@@ -65,5 +66,17 @@ input[type="submit"] {
   font-size: 1.1rem;
   background-color: #3b3b4f;
   border-color: white;
-  min-width: 0;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline {
+  display: inline;
+}
+
+a {
+  color: #dfdfe2;
 }
