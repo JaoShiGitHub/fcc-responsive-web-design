@@ -17,13 +17,15 @@ body {
   margin-top: 100px;
 }
 
-.ground {
-  width: 100vw;
-  height: 400px;
-  background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
-  z-index: 3;
+.back-mountain {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255));
   position: absolute;
-  margin-top: -58px;
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 110px;
+  top: 225px;
 }
 
 .penguin {
@@ -31,4 +33,13 @@ body {
   height: 300px;
   margin: auto;
   margin-top: 75px;
+}
+
+.ground {
+  width: 100vw;
+  height: 400px;
+  background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
+  z-index: 3;
+  position: absolute;
+  margin-top: -58px;
 }
